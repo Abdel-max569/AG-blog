@@ -1,0 +1,120 @@
+/* Styles de base et reset - Version Dark */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c9b5b5; /* Fond très sombre */
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0; /* Texte clair pour contraste */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1e1e1e; /* Tête de page légèrement moins sombre */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 40px 0;
+}
+
+/* Styles du formulaire - Version Dark */
+.article-form {
+    background: #1e1e1e; /* Fond du formulaire sombre */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #bbbbbb; /* Couleur de label plus claire */
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Bordure plus visible sur fond sombre */
+    background-color: #333; /* Fond des champs de saisie */
+    color: #e0e0e0; /* Texte saisi clair */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #0099ff; /* Couleur de focus bleue vive */
+    outline: none;
+}
+
+/* Styles des boutons - Version Dark */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-submit, .btn-draft {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    color: white; /* Texte des boutons blanc */
+}
+
+.btn-submit {
+    background-color: #007BFF; /* Bleu primaire */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+.btn-draft {
+    background-color: #555; /* Gris pour brouillon */
+}
+
+.btn-draft:hover {
+    background-color: #777; /* Gris plus clair au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    color: #aaa;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Ajout d'une marge au footer */
+}
+
+/* Responsive design de base */
+@media screen and (max-width: 600px) {
+    .form-actions {
+        flex-direction: column;
+    }
+    .btn-submit, .btn-draft {
+        width: 100%;
+    }
+}

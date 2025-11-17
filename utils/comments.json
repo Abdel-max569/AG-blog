@@ -1,0 +1,58 @@
+[
+    {
+        "id": "69138f01145c8",
+        "id_user": "6911dafb83b94",
+        "id_article": "7",
+        "content": "hi",
+        "date_comment": "2025-11-11"
+    },
+    {
+        "id": "691481b8dde25",
+        "id_user": "6911dafb83b94",
+        "id_article": "5",
+        "content": "trop nice \r\n",
+        "date_comment": "2025-11-12"
+    },
+    {
+        "id": "6914bac3511e3",
+        "id_user": "6911dafb83b94",
+        "id_article": "2",
+        "content": "hi",
+        "date_comment": "2025-11-12"
+    },
+    {
+        "id": "6914baf00ea00",
+        "id_user": "6911dafb83b94",
+        "id_article": "8",
+        "content": "hi",
+        "date_comment": "2025-11-12"
+    },
+    {
+        "id": "6915ded2d0eca",
+        "id_user": "6915dd37c63dc",
+        "id_article": "6915deaf7289d",
+        "content": "c est quoi ca ",
+        "date_comment": "2025-11-13"
+    },
+    {
+        "id": "6915e39f3088c",
+        "id_user": "6915dd37c63dc",
+        "id_article": "6915e3531221c",
+        "content": "waw",
+        "date_comment": "2025-11-13"
+    },
+    {
+        "id": "6915e5a9bc325",
+        "id_user": "6915dd37c63dc",
+        "id_article": "2",
+        "content": "hi",
+        "date_comment": "2025-11-13"
+    },
+    {
+        "id": "691b102a5407f",
+        "id_user": "6911dafb83b94",
+        "id_article": "2",
+        "content": "bonjour",
+        "date_comment": "2025-11-17"
+    }
+]

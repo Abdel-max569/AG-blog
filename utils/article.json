@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1",
+        "title": "Performance web : optimisation avanc\u00e9e pour 2025",
+        "sous_title": "D\u00e9couvrez les techniques de pointe pour am\u00e9liorer drastiquement les performances de vos applications web modernes.",
+        "content": "L'optimisation des performances web ne se limite plus \u00e0 la compression d'images. En 2025, les enjeux se d\u00e9placent vers le Core Web Vitals, le rendu c\u00f4t\u00e9 serveur (SSR) et l'utilisation judicieuse des Service Workers. Cet article explore comment un chargement paresseux agressif et l'hydratation partielle peuvent transformer l'exp\u00e9rience utilisateur et votre r\u00e9f\u00e9rencement.",
+        "img": "image1.jpeg",
+        "categorie": "dev",
+        "date_post": "10\/02\/2024",
+        "id_user": "6911d9f50565e"
+    },
+    {
+        "id": "2",
+        "title": "L'essor de l'IA g\u00e9n\u00e9rative dans la cr\u00e9ation de contenu",
+        "sous_title": "Comment les mod\u00e8les de langage transforment le m\u00e9tier de r\u00e9dacteur web et ouvrent de nouvelles perspectives cr\u00e9atives.",
+        "content": "L'IA g\u00e9n\u00e9rative n'est plus un outil futuriste, c'est une r\u00e9alit\u00e9 quotidienne. Des outils comme ChatGPT et Gemini aident d\u00e9sormais \u00e0 g\u00e9n\u00e9rer des brouillons, optimiser le SEO et m\u00eame coder des snippets. Nous analysons l'impact \u00e9thique et pratique de cette r\u00e9volution sur l'industrie du contenu.",
+        "img": "image1.png",
+        "categorie": "technologie",
+        "date_post": "15\/03\/2024",
+        "id_user": "691238e68bbfa"
+    },
+    {
+        "id": "3",
+        "title": "Ma\u00eetriser Tailwind CSS : de d\u00e9butant \u00e0 expert",
+        "sous_title": "Un guide complet sur le framework CSS utilitaire qui domine le d\u00e9veloppement front-end moderne.",
+        "content": "Tailwind CSS a chang\u00e9 la donne dans la mani\u00e8re dont nous stylisons les interfaces. Fini les fichiers CSS massifs et les conflits de classes. Apprenez \u00e0 construire des interfaces complexes, responsives et enti\u00e8rement personnalisables en utilisant uniquement des classes utilitaires dans votre balisage HTML.",
+        "img": "image2.jpeg",
+        "categorie": "dev",
+        "date_post": "22\/03\/2024",
+        "id_user": "6911d9f50565e"
+    },
+    {
+        "id": "4",
+        "title": "Cybers\u00e9curit\u00e9 : les menaces \u00e9mergentes de 2025",
+        "sous_title": "Restez \u00e0 jour sur les nouvelles tactiques des cybercriminels et comment prot\u00e9ger vos infrastructures.",
+        "content": "Avec l'adoption massive du cloud et du travail \u00e0 distance, les surfaces d'attaque se multiplient. Les attaques par ran\u00e7ongiciel deviennent plus sophistiqu\u00e9es, ciblant d\u00e9sormais les cha\u00eenes d'approvisionnement logicielles. Cet article d\u00e9taille les mesures pr\u00e9ventives indispensables pour les entreprises.",
+        "img": "image2.png",
+        "categorie": "securite",
+        "date_post": "01\/04\/2024",
+        "id_user": "6911da9edd340"
+    },
+    {
+        "id": "5",
+        "title": "Explorer Deno : Le successeur potentiel de Node.js ?",
+        "sous_title": "Analyse approfondie de Deno, l'environnement d'ex\u00e9cution JavaScript\/TypeScript s\u00e9curis\u00e9 par d\u00e9faut, cr\u00e9\u00e9 par Ryan Dahl.",
+        "content": "Deno promet de corriger les d\u00e9fauts de conception de Node.js, en offrant une s\u00e9curit\u00e9 renforc\u00e9e (permissions explicites) et un support natif de TypeScript. Est-ce suffisant pour d\u00e9tr\u00f4ner le roi de l'ex\u00e9cution JavaScript c\u00f4t\u00e9 serveur ? Comparaison des fonctionnalit\u00e9s et de l'\u00e9cosyst\u00e8me.",
+        "img": "image3.jpg",
+        "categorie": "dev",
+        "date_post": "15\/04\/2024",
+        "id_user": "6911da9edd340"
+    },
+    {
+        "id": "6",
+        "title": "La r\u00e9volution des interfaces No-Code\/Low-Code",
+        "sous_title": "Comment ces plateformes d\u00e9mocratisent le d\u00e9veloppement logiciel et acc\u00e9l\u00e8rent la transformation num\u00e9rique.",
+        "content": "Les outils No-Code et Low-Code permettent aux 'citoyens d\u00e9veloppeurs' de cr\u00e9er des applications m\u00e9tier complexes sans \u00e9crire une seule ligne de code. Bien que puissants pour les prototypes rapides, ils pr\u00e9sentent des d\u00e9fis en termes d'\u00e9volutivit\u00e9 et de s\u00e9curit\u00e9 que nous abordons ici.",
+        "img": "image4.jpg",
+        "categorie": "technologie",
+        "date_post": "01\/05\/2024",
+        "id_user": "691238e68bbfa"
+    },
+    {
+        "id": "7",
+        "title": "UX Design : Les tendances minimalistes de 2025",
+        "sous_title": "Comment un design \u00e9pur\u00e9, centr\u00e9 sur l'essentiel, am\u00e9liore l'engagement utilisateur et la r\u00e9tention.",
+        "content": "Le design d'exp\u00e9rience utilisateur (UX) \u00e9volue vers une simplification radicale. Fini les fioritures : place \u00e0 la typographie claire, aux espaces blancs et aux interactions fluides. D\u00e9couvrez comment le minimalisme n'est pas seulement esth\u00e9tique, mais fonctionnel.",
+        "img": "image5.jpeg",
+        "categorie": "design",
+        "date_post": "10\/05\/2024",
+        "id_user": "6911da9edd340"
+    },
+    {
+        "id": "8",
+        "title": "Comprendre le WebAssembly (Wasm) et son impact futur",
+        "sous_title": "Le bytecode portable qui permet d'ex\u00e9cuter du C++, Rust, et Go dans le navigateur \u00e0 des vitesses quasi-natives.",
+        "content": "WebAssembly ouvre la porte \u00e0 des applications web beaucoup plus performantes, des jeux complexes aux outils de montage vid\u00e9o directement dans le navigateur. Explorez comment Wasm compl\u00e8te JavaScript et red\u00e9finit les limites du d\u00e9veloppement front-end.",
+        "img": "image8.jpeg",
+        "categorie": "dev",
+        "date_post": "20\/05\/2024",
+        "id_user": "691238e68bbfa"
+    },
+    {
+        "id": "9",
+        "title": "Blockchain au-del\u00e0 des cryptomonnaies : Cas d'usage r\u00e9els",
+        "sous_title": "Exploration des applications concr\u00e8tes de la technologie blockchain dans la logistique, la sant\u00e9 et le vote \u00e9lectronique.",
+        "content": "Si le Bitcoin et l'Ethereum dominent l'actualit\u00e9, la technologie sous-jacente a des implications bien plus larges. La tra\u00e7abilit\u00e9 inalt\u00e9rable de la blockchain offre des solutions r\u00e9volutionnaires pour la gestion de la cha\u00eene d'approvisionnement et la v\u00e9rification des donn\u00e9es m\u00e9dicales.",
+        "img": "image10.jpeg",
+        "categorie": "technologie",
+        "date_post": "05\/06\/2024",
+        "id_user": "6911da9edd340"
+    },
+    {
+        "id": "10",
+        "title": "Rust : Le langage le plus aim\u00e9 par les d\u00e9veloppeurs ?",
+        "sous_title": "Pourquoi Rust gagne-t-il en popularit\u00e9 pour le d\u00e9veloppement syst\u00e8me, web et embarqu\u00e9 ?",
+        "content": "Rust offre une s\u00e9curit\u00e9 m\u00e9moire garantie sans garbage collector, une performance exceptionnelle et une syntaxe moderne. Utilis\u00e9 par des g\u00e9ants comme Amazon et Microsoft, il est rapidement devenu le langage de pr\u00e9dilection pour les projets o\u00f9 la fiabilit\u00e9 est critique.",
+        "img": "image10.jpeg",
+        "categorie": "dev",
+        "date_post": "15\/06\/2024",
+        "id_user": "6911da9edd340"
+    },
+    {
+        "id": "6915e3531221c",
+        "title": "Les trois piliers du succ\u00e8s de l&#039;IA pour l&#039;Afrique : Acc\u00e9l\u00e9rer le d\u00e9veloppement par l&#039;innovation locale",
+        "sous_title": "Ce titre est destin\u00e9 aux entrepreneurs africains, aux investisseurs, aux ONG, et aux acteurs du d\u00e9veloppement international.",
+        "content": "Structure et Contenu Potentiel :<br \/>\r\n<br \/>\r\n    Introduction : Mettre en avant le potentiel unique de l&#039;Afrique pour l&#039;IA, notamment gr\u00e2ce \u00e0 sa population jeune et au taux \u00e9lev\u00e9 de p\u00e9n\u00e9tration du mobile.<br \/>\r\n    Pilier 1 : Le Capital Humain et la Formation :<br \/>\r\n        Souligner l&#039;importance d&#039;investir dans l&#039;\u00e9ducation STEM (sciences, technologie, ing\u00e9nierie et math\u00e9matiques).<br \/>\r\n        Mentionner des initiatives de formation locales ou panafricaines (ex: Moringa School, African Institute for Mathematical Sciences - AIMS) qui forment la prochaine g\u00e9n\u00e9ration de talents.<br \/>\r\n    Pilier 2 : Les Donn\u00e9es Locales Pertinentes :<br \/>\r\n        Expliquer pourquoi les mod\u00e8les d&#039;IA form\u00e9s sur des donn\u00e9es occidentales ne sont pas toujours adapt\u00e9s aux contextes africains (variations linguistiques, infrastructures diff\u00e9rentes, etc.).<br \/>\r\n        Insister sur la n\u00e9cessit\u00e9 de collecter et d&#039;annoter des jeux de donn\u00e9es locaux de haute qualit\u00e9.<br \/>\r\n    Pilier 3 : L&#039;Innovation Ax\u00e9e sur les Probl\u00e8mes Locaux :<br \/>\r\n        Pr\u00e9senter des cas d&#039;usage concrets o\u00f9 l&#039;IA r\u00e9sout des d\u00e9fis sp\u00e9cifiques (ex: agriculture de pr\u00e9cision pour am\u00e9liorer les rendements, diagnostics m\u00e9dicaux via smartphone dans les zones recul\u00e9es, services financiers mobiles).<br \/>\r\n    Conclusion : Un appel \u00e0 l&#039;action pour que l&#039;IA en Afrique soit un moteur d&#039;inclusion \u00e9conomique et de souverainet\u00e9 technologique.",
+        "img": "image4.jpg",
+        "categorie": "tech",
+        "date_post": "2025-11-13",
+        "id_user": "6915dd37c63dc"
+    }
+]

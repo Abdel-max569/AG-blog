@@ -1,0 +1,147 @@
+[
+    {
+        "id": "1",
+        "pseudo":"ali",
+        "email": "ali@gmail.com",
+        "password":"dddddsdb",
+        "date_inscrit": "20/02/2000"
+    }
+]
+
+
+
+[
+    {
+        "id": "1",
+        "title":"Performance web : optimisation avancée pour 2025",
+        "sous_title": "Découvrez les techniques de pointe pour améliorer drastiquement les performances de vos applications web modernes.",
+        "content": "Découvrez les techniques de pointe pour améliorer drastiquement les performances de vos applications web modernes.",
+        "img":"image.jpg",
+        "categorie":"dev",
+        "date_post": "10/02/2000"
+    }
+]
+
+
+
+[
+    {
+        "id": "1",
+        "title":"Performance web : optimisation avancée pour 2025",
+        "sous_title": "Découvrez les techniques de pointe pour améliorer drastiquement les performances de vos applications web modernes.",
+        "content": "L'optimisation des performances web ne se limite plus à la compression d'images. En 2025, les enjeux se déplacent vers le Core Web Vitals, le rendu côté serveur (SSR) et l'utilisation judicieuse des Service Workers. Cet article explore comment un chargement paresseux agressif et l'hydratation partielle peuvent transformer l'expérience utilisateur et votre référencement.",
+        "img":"image1.jpg",
+        "categorie":"dev",
+        "date_post": "10/02/2024"
+    },
+    {
+        "id": "2",
+        "title":"L'essor de l'IA générative dans la création de contenu",
+        "sous_title": "Comment les modèles de langage transforment le métier de rédacteur web et ouvrent de nouvelles perspectives créatives.",
+        "content": "L'IA générative n'est plus un outil futuriste, c'est une réalité quotidienne. Des outils comme ChatGPT et Gemini aident désormais à générer des brouillons, optimiser le SEO et même coder des snippets. Nous analysons l'impact éthique et pratique de cette révolution sur l'industrie du contenu.",
+        "img":"image2.jpg",
+        "categorie":"technologie",
+        "date_post": "15/03/2024"
+    },
+    {
+        "id": "3",
+        "title":"Maîtriser Tailwind CSS : de débutant à expert",
+        "sous_title": "Un guide complet sur le framework CSS utilitaire qui domine le développement front-end moderne.",
+        "content": "Tailwind CSS a changé la donne dans la manière dont nous stylisons les interfaces. Fini les fichiers CSS massifs et les conflits de classes. Apprenez à construire des interfaces complexes, responsives et entièrement personnalisables en utilisant uniquement des classes utilitaires dans votre balisage HTML.",
+        "img":"image3.jpg",
+        "categorie":"dev",
+        "date_post": "22/03/2024"
+    },
+    {
+        "id": "4",
+        "title":"Cybersécurité : les menaces émergentes de 2025",
+        "sous_title": "Restez à jour sur les nouvelles tactiques des cybercriminels et comment protéger vos infrastructures.",
+        "content": "Avec l'adoption massive du cloud et du travail à distance, les surfaces d'attaque se multiplient. Les attaques par rançongiciel deviennent plus sophistiquées, ciblant désormais les chaînes d'approvisionnement logicielles. Cet article détaille les mesures préventives indispensables pour les entreprises.",
+        "img":"image4.jpg",
+        "categorie":"securite",
+        "date_post": "01/04/2024"
+    },
+    {
+        "id": "5",
+        "title":"Explorer Deno : Le successeur potentiel de Node.js ?",
+        "sous_title": "Analyse approfondie de Deno, l'environnement d'exécution JavaScript/TypeScript sécurisé par défaut, créé par Ryan Dahl.",
+        "content": "Deno promet de corriger les défauts de conception de Node.js, en offrant une sécurité renforcée (permissions explicites) et un support natif de TypeScript. Est-ce suffisant pour détrôner le roi de l'exécution JavaScript côté serveur ? Comparaison des fonctionnalités et de l'écosystème.",
+        "img":"image5.jpg",
+        "categorie":"dev",
+        "date_post": "15/04/2024"
+    },
+    {
+        "id": "6",
+        "title":"La révolution des interfaces No-Code/Low-Code",
+        "sous_title": "Comment ces plateformes démocratisent le développement logiciel et accélèrent la transformation numérique.",
+        "content": "Les outils No-Code et Low-Code permettent aux 'citoyens développeurs' de créer des applications métier complexes sans écrire une seule ligne de code. Bien que puissants pour les prototypes rapides, ils présentent des défis en termes d'évolutivité et de sécurité que nous abordons ici.",
+        "img":"image6.jpg",
+        "categorie":"technologie",
+        "date_post": "01/05/2024"
+    },
+    {
+        "id": "7",
+        "title":"UX Design : Les tendances minimalistes de 2025",
+        "sous_title": "Comment un design épuré, centré sur l'essentiel, améliore l'engagement utilisateur et la rétention.",
+        "content": "Le design d'expérience utilisateur (UX) évolue vers une simplification radicale. Fini les fioritures : place à la typographie claire, aux espaces blancs et aux interactions fluides. Découvrez comment le minimalisme n'est pas seulement esthétique, mais fonctionnel.",
+        "img":"image7.jpg",
+        "categorie":"design",
+        "date_post": "10/05/2024"
+    },
+    {
+        "id": "8",
+        "title":"Comprendre le WebAssembly (Wasm) et son impact futur",
+        "sous_title": "Le bytecode portable qui permet d'exécuter du C++, Rust, et Go dans le navigateur à des vitesses quasi-natives.",
+        "content": "WebAssembly ouvre la porte à des applications web beaucoup plus performantes, des jeux complexes aux outils de montage vidéo directement dans le navigateur. Explorez comment Wasm complète JavaScript et redéfinit les limites du développement front-end.",
+        "img":"image8.jpg",
+        "categorie":"dev",
+        "date_post": "20/05/2024"
+    },
+    {
+        "id": "9",
+        "title":"Blockchain au-delà des cryptomonnaies : Cas d'usage réels",
+        "sous_title": "Exploration des applications concrètes de la technologie blockchain dans la logistique, la santé et le vote électronique.",
+        "content": "Si le Bitcoin et l'Ethereum dominent l'actualité, la technologie sous-jacente a des implications bien plus larges. La traçabilité inaltérable de la blockchain offre des solutions révolutionnaires pour la gestion de la chaîne d'approvisionnement et la vérification des données médicales.",
+        "img":"image9.jpg",
+        "categorie":"technologie",
+        "date_post": "05/06/2024"
+    },
+    {
+        "id": "10",
+        "title":"Rust : Le langage le plus aimé par les développeurs ?",
+        "sous_title": "Pourquoi Rust gagne-t-il en popularité pour le développement système, web et embarqué ?",
+        "content": "Rust offre une sécurité mémoire garantie sans garbage collector, une performance exceptionnelle et une syntaxe moderne. Utilisé par des géants comme Amazon et Microsoft, il est rapidement devenu le langage de prédilection pour les projets où la fiabilité est critique.",
+        "img":"image10.jpg",
+        "categorie":"dev",
+        "date_post": "15/06/2024"
+    }
+]
+
+
+
+if (isset($_POST["connecter"])) {
+    $email = htmlspecialchars($_POST["email"]);
+    $password = htmlspecialchars($_POST["password"]);
+    foreach($allUsers as $user){
+      
+      if($user["email"]===$email && $user["password"]===$password){
+          // $pseudo_user=$user["nom"];
+          // $id_user=$user["id"];
+          // $email_user=$user["email"];
+          $_SESSION["id"]=$user["id"];
+          $_SESSION["nom"]=$user["nom"];
+          $_SESSION["email"]=$user["email"];
+           header("Location:index.php");
+      }
+     
+      
+
+      
+
+      
+    }
+
+   
+
+    
+}
