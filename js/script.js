@@ -7,7 +7,7 @@ let erreorCaracterResume=document.getElementById("error-caracter-resume");
 title.addEventListener('input', function() {
   if (title.value.length > limite) {
     erreorCaracter.textContent="Vous avez depasser la limite de caractere!"
-    title.maxlength=50;
+    
   }else{
     erreorCaracter.textContent=""
   }
