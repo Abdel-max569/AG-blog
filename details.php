@@ -29,6 +29,7 @@ if ($product_find === null) {
 }
 
 
+
 // var_dump($product_find);
 
 
@@ -162,6 +163,7 @@ foreach ($allComment as $comment) {
                 &copy; 2025 AG-Blog. Tous droits réservés.
             </footer>
         </div>
+        
 </body>
 
 </html>

@@ -1,5 +1,73 @@
 <?php
+
 session_start();
+
+// // Vérifier la session AVANT d'accéder à $_SESSION["id"]
+// if (!isset($_SESSION["id"])) {
+//     header("Location: connexion.php");
+//     exit();
+// }
+// $id_user = $_SESSION["id"];
+
+// require "utils/fileArt.php";
+
+// $allArticle = readJson();
+
+// if (isset($_POST["publier"])) {
+
+//     $title = htmlspecialchars($_POST["title"]);
+//     $resume = htmlspecialchars($_POST["resume"]);
+//     $content = nl2br(htmlspecialchars($_POST["content"]));
+//     $categorie_selectionnee = htmlspecialchars($_POST['category']);
+//     $id_unique = uniqid();
+//     $datepost = date("Y-m-d");
+
+//     // Gestion sécurisée du fichier uploadé
+//     $imgFilename = null;
+//     if (isset($_FILES['file']) && $_FILES['file']['error'] === UPLOAD_ERR_OK) {
+//         $tmpPath = $_FILES['file']['tmp_name'];
+//         $origName = $_FILES['file']['name'];
+//         $ext = strtolower(pathinfo($origName, PATHINFO_EXTENSION));
+//         $allowed = ['jpg','jpeg','png','gif'];
+
+//         if (in_array($ext, $allowed)) {
+//             // Générer un nom unique pour éviter collisions et attaques
+//             $imgFilename = time() . '_' . uniqid() . '.' . $ext;
+//             $destDir = __DIR__ . '/img/';
+//             if (!is_dir($destDir)) {
+//                 mkdir($destDir, 0755, true);
+//             }
+//             $destPath = $destDir . $imgFilename;
+//             if (!move_uploaded_file($tmpPath, $destPath)) {
+//                 // échec du déplacement — on peut logguer ou afficher une erreur
+//                 $imgFilename = null;
+//             }
+//         } else {
+//             // type non autorisé — ignorer le fichier ou gérer l'erreur
+//             $imgFilename = null;
+//         }
+//     }
+
+//     $user = [
+//         "id" => $id_unique,
+//         "title" => $title,
+//         "sous_title" => $resume,
+//         "content" => $content,
+//         "img" => $imgFilename ?? '',
+//         "categorie" => $categorie_selectionnee,
+//         "date_post" => $datepost,
+//         "id_user" => $id_user
+//     ];
+
+//     $allArticle[] = $user;
+//     writeJson($allArticle);
+
+//     header("Location: index.php");
+//     exit();
+// }
+
+
+
 $id_user=$_SESSION["id"];
 require "utils/fileArt.php";
 
@@ -129,6 +197,8 @@ if (isset($_POST["publier"])) {
             <p>&copy; 2025 Mon Blog</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
+
 
 </html>

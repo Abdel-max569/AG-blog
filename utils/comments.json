@@ -54,5 +54,19 @@
         "id_article": "2",
         "content": "bonjour",
         "date_comment": "2025-11-17"
+    },
+    {
+        "id": "691c9f3ea7139",
+        "id_user": "6911da36cb848",
+        "id_article": "691c9ef54beed",
+        "content": "w\r\naw",
+        "date_comment": "2025-11-18"
+    },
+    {
+        "id": "691ca049bd9b0",
+        "id_user": "6911da36cb848",
+        "id_article": "1",
+        "content": "ali\r\n",
+        "date_comment": "2025-11-18"
     }
 ]

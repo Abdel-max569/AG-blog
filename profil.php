@@ -4,6 +4,8 @@ if (!isset($_SESSION["id"])){
     header("Location:connexion.php");
 };
 
+$nom_profil=$_SESSION["nom"];
+$email_profil=$_SESSION["email"];
 
 
 ?>
@@ -28,11 +30,11 @@ if (!isset($_SESSION["id"])){
             <h3>Mes Informations Personnelles</h3>
             <div class="info-item">
                 <span class="label">Nom d'utilisateur :</span>
-                <span class="value">NomUtilisateur</span> 
+                <span class="value"><?=$nom_profil?></span> 
             </div>
             <div class="info-item">
                 <span class="label">Email: </span>
-                <span class="value">utilisateur@example.com</span> 
+                <span class="value"><?=$email_profil?></span> 
             </div>
           
         </section>
@@ -80,7 +82,7 @@ if (!isset($_SESSION["id"])){
             </table>
         </section>
         
-        <a href="#" class="btn-logout">Se déconnecter</a>
+        <a href="logout.php" class="btn-logout">Se déconnecter</a>
     </div>
 </body>
 </html>
