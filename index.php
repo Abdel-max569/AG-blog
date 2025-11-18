@@ -4,7 +4,7 @@ require "utils/fileArt.php";
 
 $allArticle = readJson();
 
-$id_user=$_SESSION["id"];
+$id_user = $_SESSION["id"];
 
 
 
@@ -29,7 +29,11 @@ $id_user=$_SESSION["id"];
       <ul class="nav-links">
         <li><a href="#">Accueil</a></li>
         <li><a href="create_article.php">Creer</a></li>
-        <li><a href="admin.php">Admin</a></li>
+
+        <?php if ($id_user == "6911da36cb848"): ?>
+          <li><a href="admin.php">Admin</a></li>
+        <?php endif ?>
+
         <li><a href="Apropos.php">À propos</a></li>
         <li><a href="profil.php">Profil</a></li>
       </ul>
@@ -68,7 +72,7 @@ $id_user=$_SESSION["id"];
             </div>
             <div class="article-content">
               <div class="article-meta">
-                <div class="author-avatar">Ad</div>
+                <div class="author-avatar">AD</div>
                 <div class="author-info">
                   <span class="author-name">Alexandre Dupont</span>
                   <span class="article-date"><?= $article["date_post"] ?></span>
