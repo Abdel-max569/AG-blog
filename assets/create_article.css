@@ -1,7 +1,7 @@
 /* Styles de base et reset - Version Dark */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #c9b5b5; /* Fond très sombre */
+    background-color: #fff; /* Fond très sombre */
     margin: 0;
     padding: 0;
     color: #e0e0e0; /* Texte clair pour contraste */

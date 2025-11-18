@@ -158,18 +158,22 @@ if (isset($_POST["publier"])) {
     <main class="container">
         <form action="create_article.php" method="POST" class="article-form" enctype="multipart/form-data">
             <div class="form-group">
+                
                 <label for="title">Titre de l'article</label>
-                <input type="text" id="title" name="title" required>
+                <input type="text" id="title" name="title" required >
+                <p  id="error-caracter" style="color:red"></p>
             </div>
 
             <div class="input-group mb-3">
                 <label class="input-group-text" for="inputGroupFile01">Upload</label>
                 <input type="file" class="form-control" id="inputGroupFile01" name="file">
+                
             </div>
 
             <div class="form-group">
                 <label for="excerpt">Extrait (résumé)</label>
                 <textarea id="excerpt" name="resume" rows="3"></textarea>
+                <p  id="error-caracter-resume" style="color:red"></p>
             </div>
 
             <div class="form-group">
