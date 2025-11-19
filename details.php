@@ -115,7 +115,7 @@ foreach ($allComment as $comment) {
             <span><i class="far fa-user"></i> <?= $user_pseudo ?></span>
         </div>
 
-        <img src="img/<?= $product_find["img"] ?>" alt="Image de l'article">
+        <!-- <img src="img/<?= $product_find["img"] ?>" alt="Image de l'article"> -->
 
         <p><?= $product_find["content"] ?></p>
 

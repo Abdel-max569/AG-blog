@@ -1,6 +1,40 @@
+/* Style du tableau des articles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    
+    /* --- SOLUTION REQUISE : Force le tableau à respecter les largeurs définies --- */
+    table-layout: fixed; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top; /* Aligne le texte en haut */
+    
+    /* S'assurer qu'il n'y a pas de white-space: nowrap hérité */
+    white-space: normal; 
+}
+
+th {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+
+/* Appliqué spécifiquement aux cellules (td) pour forcer le texte à s'enrouler */
+td {
+    word-wrap: break-word; /* Pour les anciens navigateurs IE */
+    overflow-wrap: break-word; /* La propriété standard moderne */
+    /* Vous pouvez définir une largeur spécifique pour le titre si nécessaire, ex: */
+    /* width: 60%; */ 
+}
+
+/* Le reste de votre CSS... */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #151518;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
@@ -8,7 +42,7 @@ body {
 }
 
 .container {
-    max-width: 850px;
+    max-width: 90%;
     margin: auto;
     background: #fff;
     padding: 30px;
@@ -67,29 +101,11 @@ button {
     background-color: #0056b3;
 }
 
-/* Style du tableau des articles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-    vertical-align: middle;
-}
-
-th {
-    background-color: #e9ecef;
-    font-weight: 600;
-}
-
 /* Style des boutons d'action dans le tableau */
 .btn-action {
     padding: 6px 12px;
     margin-right: 5px;
+    white-space: nowrap; 
 }
 
 .btn-modifier {

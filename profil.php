@@ -1,11 +1,34 @@
-<?php  
+<?php 
 session_start()   ;
+require "utils/fileArt.php"; 
 if (!isset($_SESSION["id"])){
     header("Location:connexion.php");
 };
 
+$id_user=$_SESSION["id"];
 $nom_profil=$_SESSION["nom"];
 $email_profil=$_SESSION["email"];
+
+
+$allarticle=readJson();
+
+
+$allart_user=[];
+foreach ($allarticle as $article){
+    if ($id_user==$article["id_user"]){
+        $allart_user[]=$article;
+    }
+}
+
+//var_dump($allart_user);
+
+
+
+
+
+
+
+
 
 
 ?>
@@ -41,7 +64,6 @@ $email_profil=$_SESSION["email"];
 
         <section class="mes-articles">
             <h3>Mes Articles Publiés</h3>
-
             <table>
                 <thead>
                     <tr>
@@ -51,33 +73,16 @@ $email_profil=$_SESSION["email"];
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Exemple d'article 1 -->
+                    <?php foreach ($allart_user as $article): ?>
                     <tr>
-                        <td>Introduction au CSS moderne</td>
-                        <td>2024-10-20</td>
+                        <td><?=$article["title"]?></td>
+                        <td><?=$article["date_post"]?></td>
                         <td>
-                            <button class="btn-action btn-modifier">Modifier</button>
-                            <button class="btn-action btn-supprimer">Supprimer</button>
+                            <a href=""><button class="btn-action btn-modifier">Modifier</button></a>
+                            <a href="delete.php?id=<?= $article["id"] ?>"><button class="btn-action btn-supprimer">Supprimer</button></a>
                         </td>
                     </tr>
-                    <!-- Exemple d'article 2 -->
-                    <tr>
-                        <td>Guide du débutant en HTML5</td>
-                        <td>2024-10-15</td>
-                        <td>
-                            <button class="btn-action btn-modifier">Modifier</button>
-                            <button class="btn-action btn-supprimer">Supprimer</button>
-                        </td>
-                    </tr>
-                    <!-- Exemple d'article 3 -->
-                    <tr>
-                        <td>Pourquoi le PHP est toujours pertinent</td>
-                        <td>2024-10-01</td>
-                        <td>
-                            <button class="btn-action btn-modifier">Modifier</button>
-                            <button class="btn-action btn-supprimer">Supprimer</button>
-                        </td>
-                    </tr>
+                    <?php endforeach; ?>
                 </tbody>
             </table>
         </section>

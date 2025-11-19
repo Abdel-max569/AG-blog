@@ -89,5 +89,12 @@
         "id_article": "6",
         "content": "ia est trop bon",
         "date_comment": "2025-11-19"
+    },
+    {
+        "id": "691e019a7ec96",
+        "id_user": "691238e68bbfa",
+        "id_article": "5",
+        "content": "gbdbtb",
+        "date_comment": "2025-11-19"
     }
 ]
