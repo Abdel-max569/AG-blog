@@ -68,5 +68,26 @@
         "id_article": "1",
         "content": "ali\r\n",
         "date_comment": "2025-11-18"
+    },
+    {
+        "id": "691d6ccf21ee3",
+        "id_user": "6911da36cb848",
+        "id_article": "3",
+        "content": "trop cool",
+        "date_comment": "2025-11-19"
+    },
+    {
+        "id": "691d6cd6b3181",
+        "id_user": "6911da36cb848",
+        "id_article": "3",
+        "content": "waw",
+        "date_comment": "2025-11-19"
+    },
+    {
+        "id": "691d6d0f06387",
+        "id_user": "6911da36cb848",
+        "id_article": "6",
+        "content": "ia est trop bon",
+        "date_comment": "2025-11-19"
     }
 ]

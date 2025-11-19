@@ -89,6 +89,14 @@ $id_user = $_SESSION["id"];
 
   </div>
 
+  <div class="footer">
+    <a href="">lien essai</a>
+    <a href="">lien essai</a>
+    <a href="">lien essai</a>
+    <a href="">lien essai</a>
+    <a href="">lien essai</a>
+  </div>
+
 
 
 
